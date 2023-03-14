@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Employee {
     private String name;
-    private Date birthdate;
+    private Date birthDate;
     private String gender;
     private String phone;
     private String position;
@@ -16,7 +16,7 @@ public class Employee {
     public Employee(String name, Date birthdate, String gender, String phone, String position,
                     String departmentName, Employee manager, Date hireDate, double salary) {
         this.name = name;
-        this.birthdate = birthdate;
+        this.birthDate = birthdate;
         this.gender = gender;
         this.phone = phone;
         this.position = position;
@@ -26,7 +26,6 @@ public class Employee {
         this.salary = salary;
     }
 
-    // геттеры и сеттеры
     public String getName() {
         return name;
     }
@@ -36,11 +35,11 @@ public class Employee {
     }
 
     public Date getBirthdate() {
-        return birthdate;
+        return birthDate;
     }
 
     public void setBirthdate(Date birthdate) {
-        this.birthdate = birthdate;
+        this.birthDate = birthdate;
     }
 
     public String getGender() {
